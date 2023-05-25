@@ -1,9 +1,10 @@
 # A tutorial of message propagate in GNN
-A tutorial of Graph Neural Network, including `PPT` and `ipynb` file. We compared `GNN` with machine learning method `SVM` and classify neural network `MLP`. And analyse the different message propagate methods (like GCN, mean and sum) and the impact of the removal ratio of edges.
+A tutorial of Graph Neural Network, including `PPT` and `ipynb` file. We compared `GNN` with machine learning method `SVM` and classify neural network `MLP`. And analyse the different `message propagate methods` (like `GCN`, `mean` and `sum`) and the impact of the removal ratio of edges.
 
-教程适用场景，个人学习与组会分享。
+教程适用场景，个人学习与组会分享。所有内容均可在`main.ipynb`中获取, `main.py`则将`main.ipynb`所有代码汇总，`PPT`导引思路。
 
-使用`torch`实现三种信息传播过程。使用`Cora`引文数据集进行实验，探索了`删除边的比例`对模型分类的影响，发现删除的边的比例越多，模型表现越差，最后将退化为MLP模型所表现出来的分类性能。
+使用`torch`实现`三种信息传播过程`。使用`Cora`引文数据集进行实验，探索了`删除边的比例`对模型分类的影响，发现删除的边的比例越多，模型表现越差，最后将退化为MLP模型所表现出来的分类性能。
+
 
 ### Step
 
